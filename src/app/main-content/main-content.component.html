@@ -1,28 +1,35 @@
 <section class="index-container">
-  <div id="cards">
-    <div class="card">
-      <div class="container">
-        <h4><b>John Doe</b></h4>
-        <p>Architect & Engineer</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
-        <a class="btn_info" href="#"><button>mas info</button></a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="container">
-        <h4><b>John Doe</b></h4>
-        <p>Architect & Engineer</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
-        <a class="btn_info" href="#"><button>mas info</button></a>
-      </div>
-    </div>
-    <div class="card">
-      <div class="container">
-        <h4><b>John Doe</b></h4>
-        <p>Architect & Engineer</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
-        <a class="btn_info" href="#"><button>mas info</button></a>
-      </div>
-    </div>
+  <div class="lista_estudiantes">
+    <ul class="lista">
+      <li *ngFor="let nombrePersona of personas">
+        nombre: {{nombrePersona}}
+      </li>
+    </ul>
   </div>
+  <!-- <div id="cards">
+    <div class="card">
+      <div class="container">
+        <h4><b>John Doe</b></h4>
+        <p>Architect & Engineer</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
+        <a class="btn_info" href="#"><button>mas info</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="container">
+        <h4><b>John Doe</b></h4>
+        <p>Architect & Engineer</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
+        <a class="btn_info" href="#"><button>mas info</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="container">
+        <h4><b>John Doe</b></h4>
+        <p>Architect & Engineer</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid esse unde officia ea perferendis impedit reiciendis consequuntur, possimus minima earum laborum libero minus, accusantium rem debitis placeat. Cumque, quibusdam sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam exercitationem suscipit esse nesciunt corporis quia consectetur harum, reiciendis amet alias expedita repudiandae debitis magnam voluptatibus assumenda cum eos! Exercitationem!</p>
+        <a class="btn_info" href="#"><button>mas info</button></a>
+      </div>
+    </div>
+  </div> -->
 </section>
