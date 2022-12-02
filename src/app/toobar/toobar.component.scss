@@ -1,0 +1,23 @@
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+#menu{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(87, 5, 87);
+  color: antiquewhite;
+  font-size: 25px;
+  padding: 20px;
+  margin: 0;
+  position: sticky;
+}
+
+.menu_lista:hover{
+
+  font-size: 30px;
+}
+
